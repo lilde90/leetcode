@@ -1,5 +1,5 @@
 // Copyright 2015 lilde90. All Rights Reserved.
-// Author: Pan Li (panli.me@baidu.com)
+// Author: Pan Li (panli.me@gmail.com)
 //
 //You are given two linked lists representing two non-negative numbers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 //
