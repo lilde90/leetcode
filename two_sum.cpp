@@ -10,7 +10,10 @@
 //Input: numbers={2, 7, 11, 15}, target=9
 //Output: index1=1, index2=2
 //
-ass Solution {
+#include <vector>
+#include <cassert>
+using namespace std;
+class Solution {
     public:
         vector<int> twoSum(vector<int> &numbers, int target) {
             vector<int> sumVec;
