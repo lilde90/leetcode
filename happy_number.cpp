@@ -11,11 +11,12 @@
 //8^2 + 2^2 = 68
 //6^2 + 8^2 = 100
 //1^2 + 0^2 + 0^2 = 1
-
+#include <vector>
+#include <cassert>
 class Solution {
     public:
         bool isHappy(int n) {
-            vector<int> path;
+            std::vector<int> path;
             while (n != 1) {
                 int num = n;
                 int sum = 0;
@@ -35,3 +36,9 @@ class Solution {
             return true;
         }
 };
+
+int main(int argc, char **argv) {
+    Solution sol;
+    assert(sol.isHappy(19));
+    assert(!sol.isHappy(20));
+}
