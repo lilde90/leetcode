@@ -5,6 +5,7 @@
 
 //Example1: x = 123, return 321
 //Example2: x = -123, return -321
+#include <cassert>
 class Solution {
 public:
     int reverse(int x) {
@@ -26,3 +27,10 @@ public:
 		return sign * result;
     }
 };
+
+int main(int argc, char *argv[]) {
+    Solution sol;
+    assert(sol.reverse(123) == 321);
+    assert(sol.reverse(-123) == -321);
+    assert(sol.reverse(0) == 0);
+}
