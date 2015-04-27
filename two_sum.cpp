@@ -40,3 +40,16 @@ class Solution {
             return indexVec;
         }
 };
+
+int main(int argc, char *argv[]) {
+    Solution sol;
+    vector<int> numbers;
+    numbers.push_back(2);
+    numbers.push_back(7);
+    numbers.push_back(11);
+    numbers.push_back(15);
+    vector<int> result = sol.twoSum(numbers, 9);
+    assert(result.size() == 2);
+    assert(result[0] == 1);
+    assert(result[1] == 2);
+}
